@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    background-position: top;
+    
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    width: 323px;
+    background-color: hsl(225, 100%, 98%) ;
+    margin: 0 auto;
+}
+
+.image,
+.image img {
+    width: 323px;
+    border-radius: 21px 21px 0 0;
+}
+
+.card > h1 {
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card > p {
+    line-height: 1.4;
+    width: 80%;
+    text-align: center;
+    margin: 19px auto;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 29%, 95%);
+    padding: 8px;
+    margin:  0 auto;
+}
+
+.plan a {
+    color: hsl(245, 75%, 52%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.price {
+    text-align: justify;
+}
+
+.price p,
+.price h3 {
+    margin: 0;
+}
+
+.price > p {
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    letter-spacing: 1.8px;
+}
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    padding:16px 24px;
+    border-radius: 12px;
+    width: 70%;
+    margin: 25px auto;
+    color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    box-shadow: 5px 2px 15px hsl(245, 75%, 52%);
+}
+
+.proceed:hover {
+    cursor: pointer;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    body {
+        max-width: 1440px;
+        height: 100vh;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+
+
+}
